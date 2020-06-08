@@ -1,0 +1,179 @@
+body {
+    background: #2470A6;
+    font-family: sans-serif;
+}
+
+.jumbotron {
+    margin-top: auto;
+    text-align: center;
+    background: url("city.jpg");
+}
+
+.lead {
+    color: rgb(54, 32, 0);
+}
+
+.container {
+    padding: 5%;
+}
+
+.blurb h2 {
+    color: rgb(67, 238, 76);
+    font-weight: 100;
+    font-size: 2.5rem;
+}
+
+.blurb p {
+    color: rgb(53, 224, 224);
+    font-weight: 100;
+    font-size: 1.125rem;
+    line-height: 2;
+}
+
+.content {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#mainnavbar {
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+#mainnavbar .nav-link {
+    color: rgb(161, 13, 13);
+}
+
+#mainnavbar .nav-link:hover {
+    color: rgb(233, 255, 32);
+}
+
+#mainnavbar .navbar-brand {
+    color: #3D5943;
+}
+
+#headingGroup span {
+    color: darkred;
+}
+
+#headingGroup h2 {
+    font-weight: 100;
+    font-size: 4rem;
+}
+
+.navbar.scrolled {
+    background: rgb(185, 191, 197);
+    transition: background 500ms;
+}
+
+@media (max-width: 1200px) {
+    #headingGroup h2 {
+        font-weight: 100;
+        font-size: 4rem;
+    }
+}
+
+.name {
+    text-align: center;
+    margin-top: 10%;
+}
+
+.name2 {
+    text-align: center;
+}
+
+.col mb-4 {}
+
+.card-group {
+    margin-top: 100px;
+    margin-right: 5px;
+}
+
+.accordion {
+    margin-top: 10%;
+    width: 1300px;
+    margin-left: 30px;
+    height: 300px;
+}
+
+.some {
+    text-align: center;
+    color: rgb(243, 204, 204);
+}
+
+.somecont {
+    text-align: center;
+    color: rgb(235, 238, 235);
+}
+
+.headcont {
+    text-align: center;
+    color: rgb(229, 245, 89);
+}
+
+.maincont {
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+footer {
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    background: rgb(84, 163, 194);
+}
+
+.main-content {
+    display: flex;
+}
+
+.main-content .box {
+    flex-basis: 50%;
+    padding: 10px 20px;
+}
+
+.box h2 {
+    font-size: 1.125rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.box .content {
+    margin: 20px 0 0 0;
+}
+
+.left .content p {
+    text-align: justify;
+}
+
+.left .content .social {
+    margin: 20px 0 0 0;
+}
+
+.left .content .social a {
+    padding: 0 2px;
+}
+
+.left .content .social a span {
+    height: 40px;
+    width: 40px;
+    background: rgb(161, 195, 218);
+    line-height: 40px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.left .content .social a span:hover {
+    background: #f12020;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.mar {
+    margin-bottom: 24px;
+    color: rgb(255, 255, 255);
+}
